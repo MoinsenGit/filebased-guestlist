@@ -8,12 +8,16 @@ import java.util.List;
 public class GuestList {
 
     public void setGuests(List<String> guests){
-      //  List<String> guests = new ArrayList<>();
+
+        //  List<String> guests = new ArrayList<>();
 
     }
 
+
     public List<String> getGuests(){
-        return new LinkedList<>();
+        List<String> listOfGuests = new ArrayList<>();
+
+        return listOfGuests;
     }
 
 }
